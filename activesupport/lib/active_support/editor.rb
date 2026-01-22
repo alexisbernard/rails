@@ -60,7 +60,7 @@ module ActiveSupport
     register "macvim", "mvim://open?url=file://%s&line=%d", aliases: ["mvim"]
     register "nova", "nova://open?path=%s&line=%d"
     register "rubymine", "x-mine://open?file=%s&line=%d"
-    register "sublime", "subl://open?url=file://%s&line=%d", aliases: ["subl"]
+    register "sublime", "subl://%s:%d", aliases: ["subl"]
     register "textmate", "txmt://open?url=file://%s&line=%d", aliases: ["mate"]
     register "vscode", "vscode://file/%s:%d", aliases: ["code"]
     register "vscodium", "vscodium://file/%s:%d", aliases: ["codium"]
